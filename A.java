@@ -16,4 +16,12 @@ public class A {
     {
         return a*b;
     }
+    public int subtraction(int a,int b)
+    {
+        return a-b*b;
+    }
+    public double division(int a, int b)
+    {
+        return a/b;
+    }
 }
