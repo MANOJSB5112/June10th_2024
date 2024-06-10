@@ -1,19 +1,18 @@
 package PraciseGit;
 
 public class A {
-    public int a;
-    public int b;
+    // public int a;
+    // public int b;
 
-    public A(int a,int b)
+    public A()
     {
-        this.a=a;
-        this.b=b;
+      
     }
-    public int addition()
+    public int addition(int a,int b)
     {
         return a+b;
     }
-    public int multiplication()
+    public int multiplication(int a, int b)
     {
         return a*b;
     }
